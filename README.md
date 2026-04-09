@@ -120,9 +120,10 @@ python 05_figures_tables.py
 ```bibtex
 @article{ngorima2025ksaai,
   title   = {Benchmarking {Chatterjee's} $\xi_n$ for Feature Selection in Materials Informatics},
-  author  = {Ngorima, Nash},
+  author  = {Ngorima, Tinashe},
   journal = {Journal of Machine Learning Research},
   year    = {2025},
-  note    = {Submitted}
+  howpublished = {\url{https://github.com/YourUsername/ksaai-feature-selection-benchmark}},
+  note         = {Preprint, under development}
 }
 ```
