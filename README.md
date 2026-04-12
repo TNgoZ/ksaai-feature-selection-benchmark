@@ -3,7 +3,6 @@
 Reproducible code for the manuscript:
 
 > **"Benchmarking Chatterjee's ξₙ for Feature Selection in Materials Informatics"**  
-> *Journal of Machine Learning Research (submitted)*
 
 ---
 
