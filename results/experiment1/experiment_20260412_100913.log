@@ -1,0 +1,114 @@
+2026-04-12 10:09:13,038  INFO  ======================================================================
+2026-04-12 10:09:13,039  INFO  Experiment 1: 48-configuration comprehensive comparison
+2026-04-12 10:09:13,039  INFO  Seed schedule — split: 53, model/CV/MI/Optuna: 42
+2026-04-12 10:09:13,039  INFO  ======================================================================
+2026-04-12 10:09:14,391  INFO  Dataset loaded: 15542 samples × 81 features
+2026-04-12 10:09:14,404  INFO  Train: (9946, 81), Val: (2487, 81), Test: (3109, 81)
+2026-04-12 10:09:14,405  INFO  Computing XI scores …
+2026-04-12 10:09:14,744  INFO    Saved xi_scores.csv
+2026-04-12 10:09:14,744  INFO  Computing MI scores …
+2026-04-12 10:09:18,697  INFO    Saved mi_scores.csv
+2026-04-12 10:09:18,698  INFO  Computing DC scores …
+2026-04-12 10:09:20,038  INFO    Saved dc_scores.csv
+2026-04-12 10:09:20,038  INFO  Computing MIC scores …
+2026-04-12 10:09:24,036  INFO    Saved mic_scores.csv
+2026-04-12 10:09:24,037  INFO  Running 48 configurations …
+2026-04-12 10:09:35,155  INFO    DC  10% lasso        test R²=0.5754  RMSE=21.722  MAE=16.612
+2026-04-12 10:09:46,460  INFO    DC  10% elastic_net  test R²=0.5754  RMSE=21.722  MAE=16.612
+2026-04-12 10:11:06,219  INFO    DC  10% lightgbm     test R²=0.8816  RMSE=11.472  MAE=6.895
+2026-04-12 10:23:09,125  INFO    DC  10% rf           test R²=0.8749  RMSE=11.790  MAE=6.961
+2026-04-12 10:23:29,727  INFO    DC  15% lasso        test R²=0.5879  RMSE=21.399  MAE=16.333
+2026-04-12 10:23:45,927  INFO    DC  15% elastic_net  test R²=0.5881  RMSE=21.394  MAE=16.309
+2026-04-12 10:25:13,403  INFO    DC  15% lightgbm     test R²=0.8857  RMSE=11.268  MAE=6.773
+2026-04-12 10:39:55,384  INFO    DC  15% rf           test R²=0.8833  RMSE=11.389  MAE=6.680
+2026-04-12 10:40:34,917  INFO    DC  20% lasso        test R²=0.5985  RMSE=21.122  MAE=16.071
+2026-04-12 10:41:15,032  INFO    DC  20% elastic_net  test R²=0.5984  RMSE=21.124  MAE=16.065
+2026-04-12 10:43:05,335  INFO    DC  20% lightgbm     test R²=0.8951  RMSE=10.797  MAE=6.330
+2026-04-12 11:01:43,122  INFO    DC  20% rf           test R²=0.8934  RMSE=10.884  MAE=6.416
+2026-04-12 11:01:52,291  INFO    MI  10% lasso        test R²=0.5181  RMSE=23.141  MAE=18.381
+2026-04-12 11:02:01,720  INFO    MI  10% elastic_net  test R²=0.5181  RMSE=23.141  MAE=18.381
+2026-04-12 11:03:36,469  INFO    MI  10% lightgbm     test R²=0.8654  RMSE=12.229  MAE=7.152
+2026-04-12 11:12:44,116  INFO    MI  10% rf           test R²=0.8605  RMSE=12.452  MAE=7.185
+2026-04-12 11:13:21,384  INFO    MI  15% lasso        test R²=0.5580  RMSE=22.162  MAE=17.323
+2026-04-12 11:14:02,515  INFO    MI  15% elastic_net  test R²=0.5580  RMSE=22.162  MAE=17.323
+2026-04-12 11:16:07,153  INFO    MI  15% lightgbm     test R²=0.8693  RMSE=12.052  MAE=7.093
+2026-04-12 11:28:11,993  INFO    MI  15% rf           test R²=0.8681  RMSE=12.107  MAE=7.093
+2026-04-12 11:28:54,430  INFO    MI  20% lasso        test R²=0.5711  RMSE=21.831  MAE=17.125
+2026-04-12 11:29:49,492  INFO    MI  20% elastic_net  test R²=0.5710  RMSE=21.834  MAE=17.129
+2026-04-12 11:32:12,320  INFO    MI  20% lightgbm     test R²=0.8861  RMSE=11.252  MAE=6.554
+2026-04-12 12:01:48,017  INFO    MI  20% rf           test R²=0.8890  RMSE=11.108  MAE=6.385
+2026-04-12 12:01:55,138  INFO    MIC 10% lasso        test R²=0.5181  RMSE=23.141  MAE=18.381
+2026-04-12 12:02:02,923  INFO    MIC 10% elastic_net  test R²=0.5181  RMSE=23.141  MAE=18.381
+2026-04-12 12:03:49,099  INFO    MIC 10% lightgbm     test R²=0.8682  RMSE=12.102  MAE=7.258
+2026-04-12 12:13:22,539  INFO    MIC 10% rf           test R²=0.8613  RMSE=12.415  MAE=7.173
+2026-04-12 12:13:56,803  INFO    MIC 15% lasso        test R²=0.5580  RMSE=22.162  MAE=17.323
+2026-04-12 12:14:33,595  INFO    MIC 15% elastic_net  test R²=0.5580  RMSE=22.162  MAE=17.323
+2026-04-12 12:16:43,564  INFO    MIC 15% lightgbm     test R²=0.8672  RMSE=12.146  MAE=7.101
+2026-04-12 12:28:42,910  INFO    MIC 15% rf           test R²=0.8679  RMSE=12.114  MAE=7.100
+2026-04-12 12:29:25,522  INFO    MIC 20% lasso        test R²=0.5711  RMSE=21.831  MAE=17.125
+2026-04-12 12:30:19,714  INFO    MIC 20% elastic_net  test R²=0.5710  RMSE=21.834  MAE=17.129
+2026-04-12 12:32:45,027  INFO    MIC 20% lightgbm     test R²=0.8869  RMSE=11.209  MAE=6.487
+2026-04-12 13:00:14,740  INFO    MIC 20% rf           test R²=0.8888  RMSE=11.114  MAE=6.385
+2026-04-12 13:00:22,353  INFO    XI  10% lasso        test R²=0.5206  RMSE=23.080  MAE=18.574
+2026-04-12 13:00:28,590  INFO    XI  10% elastic_net  test R²=0.5203  RMSE=23.088  MAE=18.592
+2026-04-12 13:01:52,989  INFO    XI  10% lightgbm     test R²=0.8247  RMSE=13.956  MAE=8.556
+2026-04-12 13:18:57,577  INFO    XI  10% rf           test R²=0.8214  RMSE=14.086  MAE=8.806
+2026-04-12 13:19:32,860  INFO    XI  15% lasso        test R²=0.5477  RMSE=22.418  MAE=17.783
+2026-04-12 13:20:22,138  INFO    XI  15% elastic_net  test R²=0.5476  RMSE=22.421  MAE=17.785
+2026-04-12 13:22:21,131  INFO    XI  15% lightgbm     test R²=0.8241  RMSE=13.981  MAE=8.552
+2026-04-12 13:37:23,712  INFO    XI  15% rf           test R²=0.8206  RMSE=14.120  MAE=8.660
+2026-04-12 13:37:45,783  INFO    XI  20% lasso        test R²=0.5522  RMSE=22.308  MAE=17.770
+2026-04-12 13:38:09,575  INFO    XI  20% elastic_net  test R²=0.5518  RMSE=22.318  MAE=17.778
+2026-04-12 13:40:26,574  INFO    XI  20% lightgbm     test R²=0.8257  RMSE=13.916  MAE=8.491
+2026-04-12 14:05:34,654  INFO    XI  20% rf           test R²=0.8270  RMSE=13.864  MAE=8.495
+2026-04-12 14:05:34,659  INFO  Results saved to results/experiment1/experiment_summary.csv
+2026-04-12 14:05:34,666  INFO  
+method  threshold_pct       model  test_r2  test_rmse  test_mae
+    dc             10       lasso 0.575352  21.722261 16.612005
+    dc             10 elastic_net 0.575363  21.721975 16.612219
+    dc             10    lightgbm 0.881565  11.471780  6.895260
+    dc             10          rf 0.874905  11.789903  6.960657
+    dc             15       lasso 0.587903  21.398846 16.332726
+    dc             15 elastic_net 0.588078  21.394304 16.308990
+    dc             15    lightgbm 0.885728  11.268372  6.772655
+    dc             15          rf 0.883269  11.388946  6.679611
+    dc             20       lasso 0.598511  21.121622 16.070766
+    dc             20 elastic_net 0.598430  21.123755 16.064653
+    dc             20    lightgbm 0.895092  10.796818  6.330464
+    dc             20          rf 0.893387  10.884202  6.416353
+    mi             10       lasso 0.518072  23.140989 18.381348
+    mi             10 elastic_net 0.518074  23.140938 18.381395
+    mi             10    lightgbm 0.865412  12.229076  7.152265
+    mi             10          rf 0.860461  12.451977  7.184895
+    mi             15       lasso 0.557980  22.162125 17.322836
+    mi             15 elastic_net 0.557983  22.162058 17.322886
+    mi             15    lightgbm 0.869283  12.051944  7.092888
+    mi             15          rf 0.868075  12.107491  7.092857
+    mi             20       lasso 0.571085  21.831141 17.125357
+    mi             20 elastic_net 0.570963  21.834240 17.128853
+    mi             20    lightgbm 0.886052  11.252351  6.554363
+    mi             20          rf 0.888963  11.107717  6.385147
+   mic             10       lasso 0.518073  23.140944 18.381279
+   mic             10 elastic_net 0.518073  23.140961 18.381390
+   mic             10    lightgbm 0.868186  12.102377  7.257608
+   mic             10          rf 0.861294  12.414749  7.172605
+   mic             15       lasso 0.557980  22.162127 17.322830
+   mic             15 elastic_net 0.557983  22.162056 17.322880
+   mic             15    lightgbm 0.867243  12.145601  7.100834
+   mic             15          rf 0.867937  12.113836  7.099906
+   mic             20       lasso 0.571084  21.831146 17.125380
+   mic             20 elastic_net 0.570963  21.834242 17.128857
+   mic             20    lightgbm 0.886923  11.209271  6.486824
+   mic             20          rf 0.888829  11.114430  6.384542
+    xi             10       lasso 0.520608  23.080002 18.573912
+    xi             10 elastic_net 0.520296  23.087517 18.591627
+    xi             10    lightgbm 0.824724  13.955702  8.555501
+    xi             10          rf 0.821428  14.086321  8.806233
+    xi             15       lasso 0.547698  22.418407 17.782696
+    xi             15 elastic_net 0.547614  22.420502 17.784874
+    xi             15    lightgbm 0.824078  13.981404  8.552269
+    xi             15          rf 0.820575  14.119925  8.659838
+    xi             20       lasso 0.552161  22.307533 17.770309
+    xi             20 elastic_net 0.551753  22.317698 17.777624
+    xi             20    lightgbm 0.825723  13.915884  8.491217
+    xi             20          rf 0.827011  13.864356  8.495164
