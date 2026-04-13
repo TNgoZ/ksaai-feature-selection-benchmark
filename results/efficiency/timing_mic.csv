@@ -1,0 +1,2 @@
+method,n_repetitions,mean_total_s,std_total_s,mean_s_per_feature,cv_pct
+MIC,30,9.091638178799998,1.0328194123904837,0.11224244665185183,11.360102459849596
