@@ -145,3 +145,33 @@ to use `sklearn.feature_selection.mutual_info_regression` as a drop-in replaceme
 MIC scores from the reproduced run may differ slightly from the original
 manuscript values which were produced using minepy on Python 3.10.
 Rankings and Jaccard stability values are not materially affected.
+
+---
+
+## Timing benchmark note
+
+The computational efficiency results in the manuscript
+(Table~5) were produced on a local machine (Windows 11,
+Intel Core i7, 16GB RAM, Python 3.10) and represent the
+original benchmark environment. The reproduced timing
+results from this repository (Python 3.12, GitHub Codespaces,
+2-core cloud VM) will differ due to hardware differences.
+The **rankings are identical** in both environments:
+
+| Method | Original (local) | Reproduced (Codespaces) |
+|---|---|---|
+| ξₙ | 0.33s ± 0.05s | 0.42s ± 0.07s |
+| DC | 1.83s ± 0.08s | 2.14s ± 0.10s |
+| MI | 7.30s ± 0.56s | 8.53s ± 1.57s |
+| MIC (minepy) | 465.99s ± 19.12s | N/A — see note below |
+
+### MIC timing note
+
+MIC was computed using `minepy==1.2.6` (MINE algorithm) on
+Python 3.10 in an isolated conda environment. This package
+is incompatible with Python 3.12 — see the Python 3.12
+compatibility note above. The reproduced MIC timing uses
+`sklearn.feature_selection.mutual_info_regression` as a
+replacement, which is significantly faster (9.09s vs 465.99s)
+but uses a different algorithm. The original MIC timing
+results are archived in `results/original_run/timing_mic.csv`.
