@@ -17,22 +17,19 @@ Minimal reproduction (Experiment 1 only, ~2–3 hours):
 pip install -r requirements.txt
 python src/experiment1_48configs.py
 
-## Repository structure
-
-```
-.├── README.md
+.
+├── README.md
 ├── requirements.txt
 ├── config.yaml
 ├── data/                          # Place dataset files here (not tracked by git)
 │   └── README_data.md
-├── src/experiment1_48configs.py    # Experiment 1: 48-configuration comprehensive comparison
-├── src/stability_30reps.py         # Experiment 2: 30-repetition stability analysis
-├── src/efficiency_mic.py           # Computational efficiency: MIC timing benchmark
-├── src/efficiency_dc_mi_xi.py      # Computational efficiency: DC, MI, ξₙ timing + agreement matrix
-├── src/figures_tables.py           # Figure and table generation from saved results
+├── src/
+│   ├── experiment1_48configs.py   # Experiment 1: 48-configuration comprehensive comparison
+│   ├── stability_30reps.py        # Experiment 2: 30-repetition stability analysis
+│   ├── efficiency_mic.py          # Computational efficiency: MIC timing benchmark
+│   ├── efficiency_dc_mi_xi.py     # Computational efficiency: DC, MI, ξₙ timing + agreement matrix
+│   └── figures_tables.py          # Figure and table generation from saved results
 └── results/                       # Auto-created by scripts; not tracked by git
-```
-
 ---
 
 ## Dataset
