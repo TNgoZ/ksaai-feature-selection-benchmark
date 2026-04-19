@@ -4,7 +4,7 @@ This repository provides a fully reproducible implementation of the experiments 
 
 "Accuracy–Stability Trade-offs in Correlation-Based Feature Selection..."
 
-It benchmarks Chatterjee’s ξₙ against Distance Correlation, Mutual Information, and MIC across 48 experimental configurations and a 30-repetition stability analysis on superconductivity data.
+It benchmarks Chatterjee’s ξₙ, Distance Correlation, Mutual Information, and MIC across 48 experimental configurations and a 30-repetition stability analysis on superconductivity data.
 
 > **"Benchmarking Chatterjee's ξₙ for Feature Selection in Materials Informatics"**  
 
