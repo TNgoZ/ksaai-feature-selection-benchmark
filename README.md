@@ -85,19 +85,19 @@ Run scripts in order. Each script saves results to `results/` for downstream scr
 
 ```bash
 # Step 1 – 48-configuration comprehensive comparison (~2–3 h)
-python 01_experiment1_48configs.py
+python src/experiment1_48configs.py
 
 # Step 2 – 30-repetition stability analysis (~3–4 h)
-python 02_stability_30reps.py
+python src/stability_30reps.py
 
 # Step 3 – MIC timing benchmark (~2.5 h; run independently on any machine)
-python 03_efficiency_mic.py
+python src/efficiency_mic.py
 
 # Step 4 – DC, MI, ξₙ timing benchmark + feature-agreement matrix (~1 h)
-python 04_efficiency_dc_mi_xi.py
+python src/efficiency_dc_mi_xi.py
 
 # Step 5 – Generate all manuscript figures and tables
-python 05_figures_tables.py
+python src/figures_tables.py
 ```
 
 ---
