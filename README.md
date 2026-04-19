@@ -20,7 +20,6 @@ python src/experiment1_48configs.py
 ## Repository structure
 
 ```
-.
 ├── README.md
 ├── requirements.txt
 ├── config.yaml
