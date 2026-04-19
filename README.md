@@ -8,7 +8,14 @@ It benchmarks Chatterjee’s ξₙ, Distance Correlation, Mutual Information, an
 
 > **"Benchmarking Chatterjee's ξₙ for Feature Selection in Materials Informatics"**  
 
----
+```markdown
+## Quick start
+
+Minimal reproduction (Experiment 1 only, ~2–3 hours):
+
+```bash
+pip install -r requirements.txt
+python src/experiment1_48configs.py
 
 ## Repository structure
 
