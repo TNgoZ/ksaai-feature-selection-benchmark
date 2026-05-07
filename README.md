@@ -1,4 +1,4 @@
-# Benchmarking Chatterjee's ξₙ for Feature Selection in Materials Informatics
+# Evaluating Chatterjee's ξₙ for Feature Selection: Accuracy and Stability Against Modern Dependence Measures
 
 This repository provides a fully reproducible implementation of the experiments presented in:  
 &gt; "Evaluating Chatterjee's ξₙ for Feature Selection: Accuracy and Stability Against Modern Dependence Measures"
